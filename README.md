@@ -41,7 +41,7 @@ Upon a user's successful login through Uber, the app accesses the user's Uber pr
 
 If you want to get a copy of this project up and running on your local machine for development and testing purposes, here are the steps
 
-####Set up
+####Install
 
 Clone this repository.
 ```
