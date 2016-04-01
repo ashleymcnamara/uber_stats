@@ -1,4 +1,4 @@
-**UberStats** is a Uber statistics app. Users can log in with their Uber accounts and are provided with insights into their ride history.
+**UberStats** is an Uber statistics app where users can log in with their Uber accounts and are provided with insights into their ride history.
 
 UberStats was created by **Ashley McNamara** <<ashleymcnamara1@gmail.com>>. You can connect with Ashley on [LinkedIn](https://www.linkedin.com/in/ashleymcnamara) and [Twitter](https://twitter.com/ashleymcnamara)
 
