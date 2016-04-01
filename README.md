@@ -29,7 +29,7 @@ Tech Stack:
 
 User login is handled through Uber's OAuth 2.0, following the client-side authorization flow. 
 
-###_What does UberStats OAuth flow look like?_
+####What does UberStats OAuth flow look like?
 
 For a user to access UberStats content and request in-app Uber services, the app needs authorization from Uber and redirects the user to Uber's Authorization server, where the user is asked to authenticate (if not already logged in) and then authorize the requested permissions. After successfully being granted access, the app is redirected from Uber to the redirect uri address, including an access token that can be used directly by the app to request information or perform operations on behalf of the user. 
 
@@ -75,7 +75,7 @@ Future features to come:
 
 ## <a name="author"></a>Author
 
-**Ashley McNamara** (Github: [ashleymcnamara](https://github.com/ashleymcnamara)) is a Developer Advocate and lives in Austin Texas. 
+**Ashley McNamara** (Github: [ashleymcnamara](https://github.com/ashleymcnamara)) is a Developer Advocate living in Austin Texas. 
 
 ## <a name="license"></a>License
 
