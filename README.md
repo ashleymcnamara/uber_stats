@@ -1,4 +1,4 @@
-**UberStats** is an Uber statistics app where users can log in with their Uber accounts and are provided with insights into their ride history.
+**UberStats** is a statistics app where users can log in with their Uber accounts and are provided with insights into their ride history.
 
 UberStats was created by **Ashley McNamara** <<ashleymcnamara1@gmail.com>>. You can connect with Ashley on [LinkedIn](https://www.linkedin.com/in/ashleymcnamara) and [Twitter](https://twitter.com/ashleymcnamara)
 
@@ -10,11 +10,10 @@ UberStats was created by **Ashley McNamara** <<ashleymcnamara1@gmail.com>>. You 
 * [Deployment](#deployment)
 * [Version 2.0](#future)
 * [Author](#author)
-* [License](#license)
 
 ## <a name="technologies"></a>Technologies
 
-**UberStats** is built on a Flask server (written in Python) and uses an encoding technique called base64. The application seamlessly integrates with Uber. 
+**UberStats** is built on a Flask server (written in Python) and uses an encoding technique called base64 the application seamlessly integrates with Uber and adopts a modernized UI.
 
 Tech Stack:
 * Frontend: [Jinja2](http://jinja.pocoo.org/docs/dev/), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
@@ -29,7 +28,6 @@ Tech Stack:
 ####Login with Uber
 
 User login is handled through Uber's OAuth 2.0, following the client-side authorization flow. 
-![](/static/img/Login_2.gif)
 
 * _What does UberStats OAuth flow look like?_
 
@@ -40,8 +38,6 @@ The access token is then encrypted and stored on the Flask session, and the user
 ####User Profile and Avatar
 
 Upon a user's successful login through Uber, the app accesses the user's Uber profile and greets the user with the user's name and Uber profile picture on top of the results page. Next, you'll see the number of cities where Uber was used, number of rides taken and in different product types, miles travelled in Uber, total time spent waiting for an Uber, and total time spent in an Uber.
- 
-![](/static/img/Avatar_1.gif)
 
 If you want to get a copy of this project up and running on your local machine for development and testing purposes, here are the steps
 
@@ -49,7 +45,7 @@ If you want to get a copy of this project up and running on your local machine f
 
 Clone this repository.
 ```
-$ git clone https://github.com/ashleymcnamara/uberstats
+$ git clone https://github.com/ashleymcnamara/uber_stats
 ```
 Create a virtual environment for the project.
 ```
@@ -65,7 +61,6 @@ $ pip install -r requirements.txt
 ```
 To enable the Uber functionality, you should set up your own developer accounts and have your own sets of API keys and tokens. 
 ```
-
 ## <a name="deployment"></a>Deployment
 
 Deployment details to come!
