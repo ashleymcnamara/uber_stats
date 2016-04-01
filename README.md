@@ -60,7 +60,7 @@ Install dependencies.
 $ pip install -r requirements.txt
 ```
 To enable the Uber functionality, you should set up your own developer accounts and have your own sets of API keys and tokens. 
-```
+
 ## <a name="deployment"></a>Deployment
 
 Deployment details to come!
