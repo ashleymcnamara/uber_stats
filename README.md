@@ -1,6 +1,6 @@
 **UberStats** is a statistics app where users can log in with their Uber accounts and are provided with insights into their ride history.
 
-UberStats was created by **Ashley McNamara** <<ashleymcnamara1@gmail.com>>. You can connect with Ashley on [LinkedIn](https://www.linkedin.com/in/ashleymcnamara) and [Twitter](https://twitter.com/ashleymcnamara)
+UberStats was created by [Ashley McNamara] <<ashleymcnamara1@gmail.com>>. You can connect with Ashley on [LinkedIn](https://www.linkedin.com/in/ashleymcnamara) and [Twitter](https://twitter.com/ashleymcnamara)
 
 
 # Table of Contents
@@ -29,7 +29,7 @@ Tech Stack:
 
 User login is handled through Uber's OAuth 2.0, following the client-side authorization flow. 
 
-* _What does UberStats OAuth flow look like?_
+# _What does UberStats OAuth flow look like?_
 
 For a user to access UberStats content and request in-app Uber services, the app needs authorization from Uber and redirects the user to Uber's Authorization server, where the user is asked to authenticate (if not already logged in) and then authorize the requested permissions. After successfully being granted access, the app is redirected from Uber to the redirect uri address, including an access token that can be used directly by the app to request information or perform operations on behalf of the user. 
 
