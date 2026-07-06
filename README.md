@@ -1,6 +1,6 @@
 **UberStats** is a statistics app where users can log in with their Uber accounts and are provided with insights into their ride history.
 
-UberStats was created by [Ashley McNamara](<ashleymcnamara1@gmail.com). You can connect with Ashley on [LinkedIn](https://www.linkedin.com/in/ashleymcnamara) and [Twitter](https://twitter.com/ashleymcnamara)
+UberStats was created by [Ashley McNamara](<ashleymcnamara1@gmail.com). You can connect with Ashley on [LinkedIn](https://www.linkedin.com/in/ashleymcnamara) and [X](https://x.com/ashleymcnamara)
 
 
 # Table of Contents
@@ -16,10 +16,10 @@ UberStats was created by [Ashley McNamara](<ashleymcnamara1@gmail.com). You can 
 **UberStats** is built on a Flask server (written in Python) and uses an encoding technique called base64 the application seamlessly integrates with Uber and adopts a modernized UI.
 
 Tech Stack:
-* Frontend: [Jinja2](http://jinja.pocoo.org/docs/dev/), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+* Frontend: [Jinja2](http://jinja.pocoo.org/docs/dev/), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Backend: [Python](https://www.python.org/), [Flask](http://flask.pocoo.org/)
 * base64: [base64](https://en.wikipedia.org/wiki/Base64)
-* API: [Uber](https://developer.uber.com/)
+* API: Uber
 
 (Dependencies are listed in [requirements.txt](requirements.txt).)
 
@@ -33,7 +33,7 @@ User login is handled through Uber's OAuth 2.0, following the client-side author
 
 For a user to access UberStats content and request in-app Uber services, the app needs authorization from Uber and redirects the user to Uber's Authorization server, where the user is asked to authenticate (if not already logged in) and then authorize the requested permissions. After successfully being granted access, the app is redirected from Uber to the redirect uri address, including an access token that can be used directly by the app to request information or perform operations on behalf of the user. 
 
-The access token is then encrypted and stored on the Flask session, and the user's subsequent login will not prompt for the authorization dialog if the user is logged in and has previously approved the same permissions. For more, please see the [Uber API documentation](https://developer.uber.com/docs/authentication).
+The access token is then encrypted and stored on the Flask session, and the user's subsequent login will not prompt for the authorization dialog if the user is logged in and has previously approved the same permissions. For more, please see the Uber API documentation (note: the Uber developer portal has been discontinued).
 
 ####User Profile and Avatar
 
