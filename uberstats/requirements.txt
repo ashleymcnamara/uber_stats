@@ -3,7 +3,7 @@ coverage==4.0.3
 Flask==0.10.1
 Flask-DebugToolbar==0.10.0
 Flask-SQLAlchemy==2.0
-geopy==1.11.0
+geopy==2.5.0
 httplib2==0.32.0
 Jinja2==2.7.3
 MarkupSafe==0.23
